@@ -197,11 +197,11 @@
           </select>
         `;
 
-        // Hitung harga dengan laba 2000
+        // Hitung harga dengan laba 3000
         document.getElementById("nominal").addEventListener("change", () => {
           const val = parseInt(document.getElementById("nominal").value);
           if (!isNaN(val)) {
-            hargaInput.value = (val + 2000).toLocaleString("id-ID"); 
+            hargaInput.value = (val + 3000).toLocaleString("id-ID"); 
           } else {
             hargaInput.value = "";
           }
@@ -367,4 +367,5 @@
   </script>
 </body>
 </html>
+
 </html>
